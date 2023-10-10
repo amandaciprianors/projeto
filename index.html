@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!--O head é responsável pela configuração não visível.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/assets/avatar.png"
+          alt="Foto de Amanda Rodrigues com um microfone, cabelo curto."
+        />
+        <p>@amandacarolrs</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Inscrever-se no NLW</a>
+        </li>
+
+        <li>
+          <a href="#">Baixar meu ebook</a>
+        </li>
+
+        <li>
+          <a href="#">Ver meu portfólio</a>
+        </li>
+
+        <li>
+          <a href="https://www.youtube.com/@AREAINATIVA" target="_blank"
+            >Conheça o Area Inativa</a
+          >
+          <!-- o target="_blank" serve par ao link abrir uma nova aba e não sair do site-->
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/amandaciprianors" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.youtube.com/@AREAINATIVA" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/amanda-rodrigues-82a431229/"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Feito com ♥ pela
+        <a href="https://instagram.com/amandacarolrs" target="_blank"
+          >Amanda Rodrigues</a
+        >
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
