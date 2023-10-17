@@ -147,7 +147,6 @@ footer a {
   background-color: rgba(240, 255, 255, 0.109);
 }
 
-/* media queries */
 @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/assets/bg-desktop.jpg);
